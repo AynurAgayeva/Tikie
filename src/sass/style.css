@@ -1,0 +1,221 @@
+body, html {
+  overflow-x: hidden;
+}
+
+.navbar-first {
+  height: 45px;
+  padding-bottom: 5px;
+}
+.navbar-first .phone {
+  font-size: 11px;
+  letter-spacing: 5px;
+  color: #969696;
+}
+.navbar-first .nav-link {
+  margin-left: 20px;
+}
+.navbar-first .nav-link i {
+  font-size: 13px;
+}
+
+.bg-nav {
+  background-color: #9387d9;
+}
+
+img {
+  width: 170px;
+  height: 40px;
+}
+
+.middle-nav {
+  border-top: 1px solid rgb(114, 110, 110);
+}
+.middle-nav .nav-link {
+  color: #fff;
+  font-weight: 600;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.right-icon {
+  border-radius: 50%;
+  padding: 9px 13px;
+  border: 1px solid #fff;
+}
+.right-icon:hover {
+  background-color: #000000;
+  border: none;
+}
+
+.home {
+  overflow-x: hidden;
+  width: 100%;
+}
+.home .card .home-btn {
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+.home .card .home-btn:hover {
+  background-color: #9387d9;
+  border: none;
+}
+.home .card:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+.home .card-cover1 {
+  border-top-left-radius: none;
+}
+.home .short {
+  margin-top: -70px;
+}
+.home .col-con {
+  width: 100%;
+}
+.home .col-con .col-one {
+  width: 67%;
+}
+.home .col-con .col-two {
+  width: 30%;
+}
+
+.col-con {
+  width: 100%;
+}
+.col-con .col-one {
+  width: 60%;
+}
+.col-con .col-two {
+  width: 40%;
+}
+
+.about .about-text {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  color: rgba(199, 195, 195, 0.973);
+}
+.about .about-text h2 {
+  font-size: 10vw;
+  line-height: 40px;
+  letter-spacing: 3px;
+  font-family: Times New Roman, serif;
+  font-weight: 500;
+}
+.about .about-photo img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.feature h6 {
+  letter-spacing: 2px;
+}
+.feature .feature-text img {
+  height: auto;
+  max-width: 70%;
+  position: center;
+}
+
+.contact .contact-text h2 {
+  font-size: 5vw;
+  line-height: 40px;
+  letter-spacing: 3px;
+  font-family: Times New Roman, serif;
+  font-weight: 700;
+}
+.contact .cards-con {
+  width: 100%;
+  height: auto;
+  background-image: url("https://wpbingosite.com/wordpress/tikie/wp-content/uploads/2021/06/silhouettes-trees-people-wood-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.contact .cards-con .cards {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.contact .cards-con .cards .feature {
+  border: 1px solid white;
+  padding-right: 5px;
+  border-radius: 20px;
+}
+.contact .cards-con .cards .contact-icon i {
+  padding: 16px 20px;
+  border-radius: 50%;
+  background-color: #9387d9;
+  border: 1px solid #9387d9;
+  font-size: 20px;
+}
+.contact .cards-con .cards .contact-head {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact .section-form {
+  width: 100%;
+}
+.contact .section-form .form-con {
+  background-image: url("https://wpbingosite.com/wordpress/tikie/wp-content/uploads/2021/05/background-13.jpg");
+}
+.contact .section-form .form-con h1 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: Times New Roman, serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.footer h6 {
+  color: #000000;
+  font-family: "Jost", Sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+.footer li {
+  font-size: 14px;
+  color: #969696;
+}
+
+.shop h1 {
+  font-size: 5vw;
+  line-height: 30px;
+  letter-spacing: 3px;
+  font-family: Times New Roman, serif;
+  font-weight: 700;
+}
+
+.card-shop {
+  border: none;
+}
+.card-shop .card-title {
+  font-weight: 600;
+  font-family: Jost, sans-serif;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.card-shop .card-title:hover {
+  color: #9387d9;
+}
+.card-shop .card-text-author {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #969696;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}/*# sourceMappingURL=style.css.map */

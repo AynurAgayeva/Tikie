@@ -1,0 +1,252 @@
+body, html {
+  overflow-x: hidden;
+}
+
+.navbar-first {
+  height: 45px;
+  padding-bottom: 5px;
+  
+  .phone {
+    font-size: 11px;
+    letter-spacing: 5px;
+    color: #969696;
+  }
+  .nav-link {
+    margin-left: 20px;
+    i {
+      font-size: 13px;
+    
+    }
+  }
+}
+
+.bg-nav {
+  background-color: #9387d9;
+}
+img {
+  width: 170px;
+  height: 40px;
+}
+.middle-nav {
+  border-top: 1px solid rgb(114, 110, 110);
+  .nav-link {
+    color: #fff;
+    font-weight: 600;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+}
+.right-icon {
+  border-radius: 50%;
+  padding: 9px 13px;
+  border: 1px solid #fff;
+  &:hover{
+    background-color: #000000;
+    border: none;
+  }
+}
+
+.home {
+  overflow-x: hidden;
+  .card {
+
+    .home-btn{
+        padding: 5px 20px;
+        border: 1px solid #fff;
+        border-radius: 40px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        &:hover{
+            background-color: #9387d9;
+            border: none;
+        }
+    }
+    &:hover {
+      transform: scale(0.9);
+      transition: 1s;
+    }
+  }
+
+  width: 100%;
+  .card-cover1 {
+    border-top-left-radius: none;
+  }
+  .short {
+    margin-top: -70px;
+  }
+  .col-con {
+    width: 100%;
+
+    .col-one {
+      width: 67%;
+    }
+    .col-two {
+      width: 30%;
+    }
+  }
+}
+.col-con {
+  width: 100%;
+  .col-one {
+    width: 60%;
+  }
+  .col-two {
+    width: 40%;
+  }
+}
+
+.about {
+  .about-text {
+    width: 100%;
+    height: 40vh;
+    h2 {
+      font-size: 10vw;
+      line-height: 40px;
+      letter-spacing: 3px;
+      font-family: Times New Roman, serif;
+      font-weight: 500;
+    }
+
+    text-align: center;
+    color: rgba(199, 195, 195, 0.973);
+  }
+
+  .about-photo {
+    img {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+}
+
+.feature {
+  h6 {
+    letter-spacing: 2px;
+  }
+  .feature-text {
+    img {
+      height: auto;
+      max-width: 70%;
+      position: center;
+    }
+  }
+}
+.contact {
+  .contact-text {
+    h2 {
+      font-size: 5vw;
+      line-height: 40px;
+      letter-spacing: 3px;
+      font-family: Times New Roman, serif;
+      font-weight: 700;
+    }
+  }
+
+  .cards-con {
+    width: 100%;
+
+    height: auto;
+    background-image: url("https://wpbingosite.com/wordpress/tikie/wp-content/uploads/2021/06/silhouettes-trees-people-wood-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .cards {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+
+      text-align: center;
+
+      .feature {
+        border: 1px solid white;
+        padding-right: 5px;
+        border-radius: 20px;
+      }
+      .contact-icon {
+        i {
+          padding: 16px 20px;
+          border-radius: 50%;
+          background-color: #9387d9;
+          border: 1px solid #9387d9;
+          font-size: 20px;
+        }
+      }
+      .contact-head {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .section-form{
+    width: 100%;
+    .form-con{
+        background-image: url("https://wpbingosite.com/wordpress/tikie/wp-content/uploads/2021/05/background-13.jpg");
+    h1{
+color: #fff;
+font-size: 30px;
+    text-transform: uppercase;
+        line-height: 1;
+            font-family: Times New Roman,serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+    }
+    }
+  }
+}
+
+
+.footer{
+    h6{
+        color: #000000;
+    font-family: "Jost", Sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    }
+    li{
+        
+        font-size: 14px;
+    color: #969696;
+    }
+}
+.shop{
+  h1{
+    font-size: 5vw;
+      line-height: 30px;
+      letter-spacing: 3px;
+      font-family: Times New Roman, serif;
+      font-weight: 700;
+  }
+}
+.card-shop{
+    border: none;
+    .card-title{
+ font-weight: 600;
+    font-family: Jost,sans-serif;
+    cursor: pointer;
+    line-height: 1.2;
+    &:hover{
+      color: #9387d9;
+    }
+    }
+    .card-text-author{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 14px;
+    letter-spacing: 1px;
+    color: #969696;
+    margin-bottom: 5px;
+    font-style: italic;
+    }
+   
+}
+
+.form-control{
+  &:focus{
+    box-shadow: none;
+  }
+}
